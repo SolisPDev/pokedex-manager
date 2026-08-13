@@ -9,6 +9,9 @@ COPY frontend/package*.json ./
 # Instalar dependencias para Linux
 RUN npm install
 
+# Copiar todo el código fuente del frontend al contenedor
+COPY frontend/ /app
+
 # Exponer puerto de vite
 EXPOSE 5173
 

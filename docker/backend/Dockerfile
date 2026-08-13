@@ -24,4 +24,5 @@ RUN composer install --no-interaction --optimize-autoloader
 EXPOSE 8000
 
 # El comando se pasará por compose, pero definimos uno por defecto para desarrollo
-CMD php artisan serve --host=0.0.0.0 --port=${PORT:-8000}
+CMD php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=${PORT:-8000}
+
