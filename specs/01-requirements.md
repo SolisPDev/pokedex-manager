@@ -12,7 +12,7 @@
 ## 2. Funcionalidades Bonus (Diferenciadores de IA)
 - **Bonus 1: Reconocimiento de Imagen / Visión con LMM:**
   - El usuario puede subir una imagen de una carta o foto de un Pokémon.
-  - La API procesa la imagen con **Gemini 1.5 Flash Vision** y retorna la identificación automática del Pokémon (nombre, tipo probable y sugerencia para agregarlo).
+  - La API procesa la imagen con **Gemini 2.5 Flash** (modelo actualizado) y retorna la identificación automática del Pokémon (nombre, tipo probable y sugerencia para agregarlo).
 - **Bonus 2: Chat Contextual de Colección:**
   - Un asistente inteligente en la UI que analiza la colección guardada del usuario y le da insights (ej. *"Tienes muchos Pokémon tipo Fuego, te sugiero buscar uno tipo Agua"*).
 
